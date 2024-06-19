@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Aluno</title>
+
+    <!-- CSS Básico -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="corpo">
+      <header id="cabecalho">
+        <h3>Cadastro de Alunos</h3>
+      </header>
+      <form action="" class="formulario">
+        <label for="name"
+          >Nome
+          <input type="text" name="name" id="name" required/> </label
+        ><br />
+        <label for="age"
+          >Idade
+          <input type="number" name="age" id="age" required/> </label
+        ><br />
+        <label for="age"
+          >Série
+          <input type="text" name="grade" id="grade" required/> </label
+        ><br />
+        <label for="age"
+          >Escola
+          <input type="text" name="school" id="school" required/> </label
+        ><br />
+        <label for="age"
+          >Matéria Favorita
+          <input type="text" name="subjects" id="subjects" required/> </label
+        ><br />
+        
+        <label>Endereço</label>
+        <div class="endereco">
+            <label for="cep">CEP
+                <input name="cep" id="cep" required pattern="\d{5}-\d{3}">
+            </label>
+            <label for="street">Rua
+                <input type="text" name="street" id="street" readonly class="block">
+            </label>
+            <label for="city">Cidade
+                <input type="text" name="city" id="city" readonly class="block">
+            </label>
+            <label for="state">Estado
+                <input type="text" name="state" id="state" readonly class="block">
+            </label>
+        </div>    
+      </form>
+    </main>
+  </body>
+</html>
