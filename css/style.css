@@ -16,7 +16,7 @@ body {
 
 .corpo {
     width: 90vw;
-    height: 66vh;
+    height: 76vh;
     background-color: var(--bg-sec-color);
     margin: 10% auto;
     border-radius: 5px;
@@ -58,6 +58,21 @@ header h3 {
 
 .formulario .endereco label {
     width: 39vw;
+}
+
+.formulario button {
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--bg-cab-color);
+    border-radius: 5px;
+    margin: 14px auto;
+    transition: 1s;
+}
+
+.formulario button:hover {
+    background-color: green;
+    opacity: .8;
 }
 
 .block {
